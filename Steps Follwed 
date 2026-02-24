@@ -1,0 +1,26 @@
+Step 1 Go inside backend folder -> cd backend
+Step 2 Create Virtual envrionment -> python3 -m venv venv
+This creates backend/
+        ├── venv/
+        └── app/
+Step 3 Activate Virtual envrionment -> source venv/bin/activate
+ Your terminal should now show something like:-->(venv) Shruti-Mac backend %
+ Step 4 — Install FastAPI + Uvicorn
+ pip install fastapi uvicorn 
+ Then freeze dependencies: pip freeze > requirements.txt
+ This Creates --> backend/requirements.txt
+ git add .
+git commit -m "Setup virtual environment and install FastAPI"
+git push
+
+/* -------- */ 
+
+What You Just Learned
+	•	Virtual environments
+	•	Dependency management
+	•	requirements.txt
+	•	Isolated backend setup
+
+These are real backend fundamentals.
+
+/* -------- */ 
